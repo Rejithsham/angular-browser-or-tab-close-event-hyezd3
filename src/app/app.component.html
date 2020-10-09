@@ -1,0 +1,7 @@
+<p (window:beforeunload)="doBeforeUnload()" (window:unload)="doUnload()">
+  Detect browser or tab close event in angular 8
+  Please open console to check LocalStorage :)
+</p>
+<button (click)="storeData('DaiDH')">Set LocalStorage</button>
+
+Refer: <a target="_blank" href="https://stackoverflow.com/questions/42986842/onbeforeunload-confirm-dialog-not-showing-when-angular2-hostlistener-is-used/51145053">stackoverflow</a>
