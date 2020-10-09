@@ -1,6 +1,5 @@
 import { Component, NgModule, HostListener,Injectable  } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule } from '@angular/common/http';
+
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
