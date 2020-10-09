@@ -26,10 +26,11 @@ export class AppComponent  {
      public beforeunloadHandler($event) {
        console.log("data success");
        //return "Are you sure?";
-     $event.returnValue = "Are you sure?";
+       $event.returnValue = "Are you sure?";
+    /* $event.returnValue = "Are you sure?";
      if($event.returnValue === true){
        console.log("Api call Success");
-     }
+     }*/
      
     }
 
